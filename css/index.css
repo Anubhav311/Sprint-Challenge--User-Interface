@@ -238,8 +238,18 @@ footer nav a {
 	text-align: center;
     margin: 20px 0;
     cursor: pointer;
+
 }
 
 .bottom-content-about {
     padding: 20px;
+}
+
+@keyframes anime {
+    to {background-color: mediumblue;}
+}
+
+.button:hover {
+    animation-name: anime;
+    animation-duration: 2s;
 }
