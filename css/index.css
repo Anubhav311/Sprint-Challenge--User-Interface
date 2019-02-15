@@ -90,6 +90,7 @@ nav {
 
 .header-img {
     margin: 30px 0;
+    width: 100%;
 }
 .top-content {
     display: flex;
