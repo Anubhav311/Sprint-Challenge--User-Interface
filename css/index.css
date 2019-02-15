@@ -71,6 +71,27 @@ p {
     margin: 0 auto;
 }
 
+.navbar {
+    margin: 30px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-items {
+    margin-right: 5%;
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.header-img {
+    margin: 30px 0;
+    width: 100%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +125,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +203,100 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*-- about page styling --*/
+.top-content-about {
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content-about {
+    margin: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.about-box {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin: 15px 0;
+}
+
+.box-img {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.button {
+    border: 2px solid black;
+	border-radius: 7px;
+	width: 130px;
+	padding: 10px;
+	text-align: center;
+    margin: 20px 0;
+    cursor: pointer;
+
+}
+
+.bottom-content-about {
+    padding: 20px;
+}
+
+@keyframes anime {
+    to {background-color: mediumblue;}
+}
+
+.button:hover {
+    animation-name: anime;
+    animation-duration: 2s;
+}
+
+/*-- Contact page styling --*/
+
+.contact-form {
+    height: 600px;
+}
+
+form {
+    margin: 20px auto;
+    width: 320px;
+}
+
+input {
+    padding: 10px;
+}
+
+input[type="text"] {
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+input[type="radio"] {
+    margin: 0 8px 25px 18px;
+}
+
+input[type="radio"]:first-child {
+    margin: 0px;
+}
+
+
+input[type="submit"] {
+    width: 344px;
+    height: 45px;
+    border: none;
+    color: black;
+}
+
+.contact-form h1 {
+    font-size: 40px;
+    margin: 20px 200px;
+}
+
+.contact-form p {
+    margin: 20px 130px;
 }

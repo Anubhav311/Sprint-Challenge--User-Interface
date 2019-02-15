@@ -34,13 +34,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Ans.
+Semantic HTML is a language that carries meaning for browsers and screen readers. It gives meaning to different parts of a web page which a browser can understand. This way, browsers can use the semantic HTML to structure the web page as per the meaning provided to it.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Ans.
+Width – an element with “display: block” will take the full width of the page, whereas width of an element with “display: inline” will be the width of its content only.
+Flow – all elements with “display: block” will be stacked on top of each other. They have a flow of top-to-bottom. On the other hand, all elements with “display: inline” will be laid out in a horizontal line. They have a flow of left-to-right.
 
 3. What are the 4 areas of the box model?
 
+Ans.
+Four areas of the box model are content, padding, border and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Ans.
+The property mentioned in the question works on cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Ans.
+5.	Git is a version tracking system used in software development. It’s mostly used with its counterpart GitHub, which is a cloud based version tracking system. With Git and GitHub combined, multiple people can work on the same software simultaneously and they all can use the feature of version control and branching. With these features at its disposal, a team of developers will benefit by increase in the efficiency and accuracy of their development process. It will also reduce the possibility of miscommunications between team members as Git has inbuilt checks and permissions at every step.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
