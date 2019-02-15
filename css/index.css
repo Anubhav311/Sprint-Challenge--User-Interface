@@ -253,3 +253,50 @@ footer nav a {
     animation-name: anime;
     animation-duration: 2s;
 }
+
+/*-- Contact page styling --*/
+
+.contact-form {
+    height: 600px;
+}
+
+form {
+    margin: 20px auto;
+    width: 320px;
+}
+
+input {
+    padding: 10px;
+}
+
+input[type="text"] {
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+input[type="radio"] {
+    margin: 0 8px 25px 18px;
+}
+
+input[type="radio"]:first-child {
+    margin: 0px;
+}
+
+
+input[type="submit"] {
+    width: 344px;
+    height: 45px;
+    border: none;
+    color: black;
+}
+
+.contact-form h1 {
+    font-size: 40px;
+    margin: 20px 200px;
+}
+
+.contact-form p {
+    margin: 20px 130px;
+}
